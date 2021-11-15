@@ -231,7 +231,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>components-left-rail</value>
+							<value>components-left-rail,testDS</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
