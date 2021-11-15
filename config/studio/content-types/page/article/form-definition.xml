@@ -808,8 +808,46 @@
 						</property>
 						<property>
 							<name>enableSearchExisting</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>shared-content</type>
+					<id>testDS</id>
+					<title>testDS</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>enableCreateNew</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowseExisting</name>
 							<value>true</value>
 								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearchExisting</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>repoPath</name>
+							<value>/site/components/{parentPath[0]}/left-rails</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value></value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
